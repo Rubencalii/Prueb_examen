@@ -3,3 +3,32 @@
     margin: 0;
     box-sizing: border-box;
 }
+header {
+    padding: 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav #logo img {
+    height: 60px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 200px;
+}
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+}
+main {
+    
+    background-image: url("./img/fondo.jpg");
+}
+section #ba {
+    background-size: cover;
+}
